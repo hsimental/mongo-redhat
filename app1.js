@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
  
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8081;
  
 let appStatus = 'Aplicación en proceso de inicialización';
  
